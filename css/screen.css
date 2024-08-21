@@ -29,3 +29,8 @@ header {
 li {
     list-style: none;
 }
+
+
+div {
+    margin: 15px 20px;
+}
