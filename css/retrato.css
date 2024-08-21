@@ -55,10 +55,7 @@ header {
     top: 40px;
     display: flex;
     flex-wrap: wrap;
-
-    
 }
-
 
 .menu-list-on .op {
     display: flex;
