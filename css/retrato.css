@@ -44,3 +44,32 @@ header {
 .menu-on .linha:nth-child(3) {
     transform: rotate(45deg) translate(-3px, -4px);
 }
+
+.menu-list {
+    display: none;
+}
+
+.menu-list-on {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.menu-list-on .op {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(220, 240, 1, 0.353);
+    list-style: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
