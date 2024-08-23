@@ -37,31 +37,31 @@
         <h1>CADASTRO DE PACIÊNTE</h1>
         <form action="#" method="post">
             <ul class="formulario">
-                <li>
-                    <fieldset>
-                        <legend>DADOS DE CADASTRO</legend>
-                        <ul>
-                            <li>
-                                <div class="infor infor-identificacao">
-                                    <label for="iidentificacao">IDENTIFICAÇÃO DO PACIÊNTE Nº:</label>
-                                    <input type="text" name="identificacao" id="iidentificacao">
-                                </div> 
-                            </li>
-                            <li>
-                                <div class="infor infor-prontuario">
-                                    <label for="iprontuario">NÚMERO DO PRONTUÁRIO:</label>
-                                    <input type="text" name="prontuario" id="iprontuario">
-                                </div>
-                                
-                            </li>
-                            <li>
-                                <div class="infor infor-data">
-                                    <label for="idata">DATA DO ATENDIMENTO:</label>
-                                    <input type="date" name="data" id="idata">
-                                </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                <li class="campos" id="campo-1">
+                    <div class="rotulo">
+                        <span>DADOS DE CADASTRO:</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="infor infor-identificacao">
+                                <input type="text" name="identificacao" id="iidentificacao">
+                                <label for="iidentificacao">Identificação do paciente Nº:</label>
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="infor infor-prontuario">
+                                <input type="text" name="prontuario" id="iprontuario">
+                                <label for="iprontuario">Número do Prontuário:</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-data">
+                                <input type="date" name="data" id="idata">
+                                <label for="idata">DATA DO ATENDIMENTO:</label>
+                            </div>
+                        </li>
+                    </ul>
+                    
                 </li>
                 <li>
                     <fieldset>

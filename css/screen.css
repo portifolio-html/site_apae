@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Lucida Grande", sans-serif;
 }
 
 html, body {
@@ -33,4 +34,19 @@ li {
 
 div {
     margin: 15px 20px;
+}
+
+.legenda-1 legend{
+    color: brown;
+}
+
+.campos ul li div input {
+    height: 24.4px;
+}
+
+.campos ul li div label {
+    color: #6f6f6f;
+    font-size: .786em;
+    margin-top: 3px;
+    
 }
