@@ -87,3 +87,23 @@ form {
     flex-direction: row;
     align-items: center;
 }
+
+.infor-sexo div, .infor-cor div, .infor-tratamento div {
+    padding: 0;
+    margin: 0;
+}
+
+.infor-sexo div div, .infor-cor div div, .infor-tratamento div div {
+    padding-left: 50px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.infor-sexo div div div, .infor-cor div div div, .infor-tratamento div div div {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+span {
+    padding-top: 20px;
+}
