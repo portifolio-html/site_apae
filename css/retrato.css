@@ -105,7 +105,9 @@ form {
 
 .infor-sexo div div div, .infor-cor div div div, .infor-tratamento div div div {
     padding: 5px 20px;
-    margin: 0;
+    display: block;
+    justify-content: left;
+    width: 100px;
 }
 
 span {
