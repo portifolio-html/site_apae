@@ -53,12 +53,22 @@ a {
     text-decoration: none;
 }
 
-#campo-1 {
-    display: flex;
-    flex-direction: column;
+form {
+    width: 90%;
+    max-width: 500px;
 }
 
 .campos ul li div {
     display: flex;
     flex-direction: column;
+}
+
+.campos ul li div input {
+    font-size: 1rem;
+}
+
+.campos ul li div div {
+    display: block;
+    align-items: center;
+    justify-content: center;
 }

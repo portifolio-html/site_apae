@@ -40,6 +40,7 @@
                 <li class="campos" id="campo-1">
                     <div class="rotulo">
                         <span>DADOS DE CADASTRO:</span>
+                        <hr>
                     </div>
                     <ul>
                         <li>
@@ -57,231 +58,254 @@
                         <li>
                             <div class="infor infor-data">
                                 <input type="date" name="data" id="idata">
-                                <label for="idata">DATA DO ATENDIMENTO:</label>
+                                <label for="idata">Data do Atendimento:</label>
                             </div>
                         </li>
                     </ul>
-                    
                 </li>
-                <li>
-                    <fieldset>
-                        <legend>
-                            DADOS DO PACIÊNTE
-                        </legend>
-                        <ul>
-                            <li>
-                                <div class="infor infor-nome">
-                                    <label for="inome">NOME</label>
-                                    <input type="text" name="nome" id="inome">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-nascimento">
-                                    <label for="inascimento">DATA DE NASCIMENTO</label>
-                                    <input type="date" name="nascimento" id="inascimento">
-                                </div>
-                                <div class="infor infor-idade">
-                                    <label for="iidade">IDADE</label>
-                                    <input type="text" name="idade" id="iidade">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-sexo">
-                                    <span>SEXO:</span>
+
+                <li class="campos" id="campo-2">
+                    <div class="rotulo">
+                        <span>DADOS DO PACIÊNTE</span>
+                        <hr>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="infor infor-nome">
+                                <input type="text" name="nome" id="inome">
+                                <label for="inome">Nome:</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-nascimento">
+                                <input type="date" name="nascimento" id="inascimento">
+                                <label for="inascimento">Data de Nascimento:</label>
+                            </div>
+                            <div class="infor infor-idade">
+                                <input type="text" name="idade" id="iidade">
+                                <label for="iidade">Idade:</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-sexo">
+                                <span>SEXO:</span>
+                                <div>
                                     <input type="radio" name="sexo" id="isexo-um" value="Masculino">
                                     <label for="isexo-um">Masculino</label>
-                                    <input type="radio" name="sexo" id="isexo-dois" value="Feminino">
-                                    <label for="isexo-dois">Feminino</label>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-cor">
-                                    <span>RAÇA/COR/ETNIA:</span>
+                                <div>
+                                    <input type="radio" name="sexo" id="isexo-dois" value="Feminino">
+                                    <label for="isexo-dois">Feminino</label> 
+                                </div>                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-cor">
+                                <span>RAÇA/COR/ETNIA:</span>
+                                <div>
                                     <input type="radio" name="cor" id="icor-1" value="Branca">
                                     <label for="icor-1">Branca</label>
+                                </div>
+                                <div>
                                     <input type="radio" name="cor" id="icor-2" value="Negra">
                                     <label for="icor-2">Negra</label>
+                                </div>
+                                <div>
                                     <input type="radio" name="cor" id="icor-3" value="Amarela">
                                     <label for="icor-3">Amarela</label>
+                                </div>
+                                <div>
                                     <input type="radio" name="cor" id="icor-4" value="Parda">
                                     <label for="icor-4">Parda</label>
+                                </div>
+                                <div>
                                     <input type="radio" name="cor" id="icor-5" value="Indigena">
                                     <label for="icor-5">Indígena</label>
+                                </div>
+                                <div>
                                     <input type="radio" name="cor" id="icor-6" value="Desc">
                                     <label for="icor-6">Desc.</label>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-escolaridade">
-                                    <label for="iescolaridade">ESCOLARIDADE:</label>
-                                    <input type="text" name="escolaridade" id="iescolaridade">
-                                </div>
-                                <div class="infor infor-turno">
-                                    <label for="iturno">TURNO:</label>
-                                    <input type="text" name="turno" id="iturno">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-entidade">
-                                    <label for="ientidade">ESCOLA QUE FREQUÊNTA:</label>
-                                    <input type="text" name="entidade" id="ientidade">
-                                </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-escolaridade">
+                                <input type="text" name="escolaridade" id="iescolaridade">
+                                <label for="iescolaridade">Escolaridade:</label>
+                            </div>
+                            <div class="infor infor-turno">
+                                <input type="text" name="turno" id="iturno">
+                                <label for="iturno">Turno:</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-entidade">
+                                <input type="text" name="entidade" id="ientidade">
+                                <label for="ientidade">Escola que Frequênta:</label>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <fieldset>
-                        <legend>ENDEREÇO</legend>
+                <li class="campos" id="campo-3">
+                    <div class="rotulo">
+                        <span>ENDEREÇO</span>
+                        <hr>
+                    </div>
+                    <ul>
                         <li>
                             <div class="infor infor-rua">
-                                <label for="irua">LOGRADOURO:</label>
+                                
                                 <input type="text" name="rua" id="irua">
+                                <label for="irua">Logradouro:</label>
                             </div>
                             <div class="infor infor-num">
-                                <label for="inum">NÚMERO:</label>
                                 <input type="text" name="num" id="inum">
+                                <label for="inum">Número:</label>
                             </div>
                         </li>
                         <li>
                             <div class="infor infor-bairro">
-                                <label for="ibairro">BAIRRO:</label>
                                 <input type="text" name="bairro" id="ibairro">
+                                <label for="ibairro">Bairro:</label>
                             </div>
                             <div class="infor infor-cidade">
-                                <label for="icidade">CIDADE:</label>
                                 <input type="text" name="cidade" id="icidade">
+                                <label for="icidade">Cidade:</label>
                             </div>
                         </li>
                         <li>
                             <div class="infor infor-cep">
-                                <label for="icep">CEP:</label>
                                 <input type="text" name="cep" id="icep">
+                                <label for="icep">CEP:</label>
                             </div>
                             <div class="infor infor-estado">
-                                <label for="iestado">ESTADO:</label>
                                 <input type="text" name="estado" id="iestado">
+                                <label for="iestado">Estado:</label>
                             </div>
                         </li>
                         <li>
                             <div class="infor infor-ddd">
-                                <label for="iddd">DDD:</label>
                                 <input type="text" name="ddd" id="iddd">
+                                <label for="iddd">DDD:</label>
                             </div>
                             <div class="infor infor-contato">
-                                <label for="icontato">CONTATO:</label>
                                 <input type="text" name="contato" id="icontato">
+                                <label for="icontato">Contato:</label>
                             </div>
                         </li>
-                    </fieldset>
+                    </ul>
                 </li>
-                <li>
-                    <fieldset>
-                        <legend>DADOS DA CONSULTA</legend>
-                        <ul>
-                            <li>
-                                <div class="infor infor-sus">
-                                    <label for="isid">SID:</label>
-                                    <input type="text" name="sid" id="isid">
-                                </div>
-                                <div class="infor infor-sus">
-                                    <label for="isus">NÚMERO DO CARTÃO SUS:</label>
-                                    <input type="text" name="sus" id="isus">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-procedimento">
-                                    <label for="iprocedimento">PROCEDIMENTO SOLICITADO</label>
-                                    <input type="text" name="procedimento" id="iprocedimento">
-                                </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                <li class="campos" id="campo-4">
+                    <div>
+                        <span>DADOS DA CONSULTA</span>
+                        <hr>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="infor infor-sus">
+                                <label for="isid">SID:</label>
+                                <input type="text" name="sid" id="isid">
+                            </div>
+                            <div class="infor infor-sus">
+                                <label for="isus">NÚMERO DO CARTÃO SUS:</label>
+                                <input type="text" name="sus" id="isus">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-procedimento">
+                                <label for="iprocedimento">PROCEDIMENTO SOLICITADO</label>
+                                <input type="text" name="procedimento" id="iprocedimento">
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <fieldset>
-                        <legend>HISTÓRICO</legend>
-                        <ul>
-                            <li>
-                                <div class="infor infor-tratamento">
-                                    <span>REALIZOU TRATAMENTO? </span>
-                                    <input type="radio" name="tratamento" id="isim" value="Sim">
-                                    <label for="isim">SIM</label>
-                                    <input type="radio" name="tratamento" id="inão" value="Não">
-                                    <label for="isim">NÃO</label>
-                                </div>
-                                <div class="infor infor-quando">
-                                    <label for="iquando">QUANDO?</label>
-                                    <input type="date" name="quando" id="iquando">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-qual">
-                                    <label for="iqual">QUAL?</label>
-                                    <input type="text" name="qual" id="iqual">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-resultado">
-                                    <label for="iresultado">QUAIS OS RESULTADOS?</label>
-                                    <textarea name="resultado" id="iresultado"></textarea>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-parecer">
-                                    <label for="iparecer">PARECER SOBRE TRATAMENTO?</label>
-                                    <textarea name="parecer" id="iparecer"></textarea>
-                                </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                <li class="campos" id="campo-5">
+                    <div>
+                        <span>HISTÓRICO</span>
+                        <hr>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="infor infor-tratamento">
+                                <span>REALIZOU TRATAMENTO? </span>
+                                <input type="radio" name="tratamento" id="isim" value="Sim">
+                                <label for="isim">SIM</label>
+                                <input type="radio" name="tratamento" id="inão" value="Não">
+                                <label for="isim">NÃO</label>
+                            </div>
+                            <div class="infor infor-quando">
+                                <label for="iquando">QUANDO?</label>
+                                <input type="date" name="quando" id="iquando">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-qual">
+                                <label for="iqual">QUAL?</label>
+                                <input type="text" name="qual" id="iqual">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-resultado">
+                                <label for="iresultado">QUAIS OS RESULTADOS?</label>
+                                <textarea name="resultado" id="iresultado"></textarea>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-parecer">
+                                <label for="iparecer">PARECER SOBRE TRATAMENTO?</label>
+                                <textarea name="parecer" id="iparecer"></textarea>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <fieldset>
-                        <legend>DIAGNOSTICO</legend>
-                        <ul>
-                            <li>
-                                <div class="infor infor-queixa">
-                                    <label for="iqueixa">QUEIXA PRINCIPAL:</label>
-                                    <textarea name="queixa" id="iqueixa"></textarea> 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-inicio">
-                                    <label for="iinicio">QUAL?</label>
-                                    <input type="text" name="inicio" id="iinicio">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-tratamento">
-                                    <span>PREE.MED.USO CONTINUO? </span>
-                                    <input type="radio" name="medicacao" id="isim" value="Sim">
-                                    <label for="isim">SIM</label>
-                                    <input type="radio" name="medicacao" id="inão" value="Não">
-                                    <label for="isim">NÃO</label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="infor infor-qual-queixa">
-                                    <label for="iqueixa-qual">QUEIXA PRINCIPAL:</label>
-                                    <textarea name="queixa-qual" id="iqueixa-qual"></textarea> 
-                                </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                <li class="campos" id="campo-6">
+                    <div>
+                        <span>DIAGNOSTICO</span>
+                        <hr>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="infor infor-queixa">
+                                <label for="iqueixa">QUEIXA PRINCIPAL:</label>
+                                <textarea name="queixa" id="iqueixa"></textarea> 
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-inicio">
+                                <label for="iinicio">QUAL?</label>
+                                <input type="text" name="inicio" id="iinicio">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-tratamento">
+                                <span>PREE.MED.USO CONTINUO? </span>
+                                <input type="radio" name="medicacao" id="isim" value="Sim">
+                                <label for="isim">SIM</label>
+                                <input type="radio" name="medicacao" id="inão" value="Não">
+                                <label for="isim">NÃO</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infor infor-qual-queixa">
+                                <label for="iqueixa-qual">QUEIXA PRINCIPAL:</label>
+                                <textarea name="queixa-qual" id="iqueixa-qual"></textarea> 
+                            </div>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <fieldset>
-                        <legend>ATENDIMENTO</legend>
-                        <ul>
-                            <li>
-                                <div class="infor infor-profissional">
-                                    <label for="iprofissional">PROFISSIONAL:</label>
-                                    <input type="text" name="profissional" id="iprofissional">
-                                </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                <li class="campos" id="campo-7">
+                    <div>
+                        <span>ATENDIMENTO</span>
+                        <hr>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="infor infor-profissional">
+                                <label for="iprofissional">PROFISSIONAL:</label>
+                                <input type="text" name="profissional" id="iprofissional">
+                            </div>
+                        </li>
+                    </ul>
                 </li>
             </ul>
             
