@@ -47,7 +47,15 @@ div {
     
 }
 
+.rotulo {
+    margin-top: 30px;
+}
+
 .rotulo span {
     color: blue;
     font-weight: 700;
+}
+
+#iqueixa-qual, #iqueixa, #iparecer, #iresultado {
+    height: 100px;
 }
