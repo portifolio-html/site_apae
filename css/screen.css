@@ -36,12 +36,8 @@ div {
     margin: 15px 20px;
 }
 
-.legenda-1 legend{
-    color: brown;
-}
-
 .campos ul li div input {
-    height: 24.4px;
+    height: 25px;
 }
 
 .campos ul li div label {
@@ -49,4 +45,8 @@ div {
     font-size: .786em;
     margin-top: 3px;
     
+}
+
+.rotulo span {
+    font-weight: 700;
 }
