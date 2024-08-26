@@ -92,18 +92,18 @@ form {
     align-items: center;
 }
 
-.infor-sexo div, .infor-cor div, .infor-tratamento div {
+.infor-sexo div, .infor-cor div, .infor-tratamento div, .infor-limitacao div{
     padding: 0;
     margin: 0;
 }
 
-.infor-sexo div div, .infor-cor div div, .infor-tratamento div div {
+.infor-sexo div div, .infor-cor div div, .infor-tratamento div div, .infor-limitacao div div{
     padding-left: 50px;
     padding-top: 10px;
     margin: 0;
 }
 
-.infor-sexo div div div, .infor-cor div div div, .infor-tratamento div div div {
+.infor-sexo div div div, .infor-cor div div div, .infor-tratamento div div div, .infor-limitacao div div div{
     padding: 5px 20px;
     display: block;
     justify-content: left;
