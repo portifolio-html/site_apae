@@ -10,12 +10,20 @@ html, body {
     width: 100%;
     height: 100%;
 }
+
+body {
+    background-color: #F2EFEC;
+}
+
 main {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.189);
+    
 }
 
 header {
